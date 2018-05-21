@@ -9,10 +9,13 @@ import QueryPrice from  './queryprice'
 //会员中心
 import UserCenter from './usercenter'
 
+import { PriceCheck } from '../layout'
 
-export default new Router({
-   routes:[
+const routes=[
+    {path:'/pricecheck', component: PriceCheck},
     QueryPrice,
     UserCenter
-   ]
+]
+export default new Router({
+   routes
 })

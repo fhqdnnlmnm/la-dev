@@ -2,7 +2,7 @@
  * Created by sailengsi on 2017/5/11.
  */
 
-import { ListData, FormData, DialogInfo, Echarts } from '../components'
+import { ListData, FormData, DialogInfo, Echarts,OriginPort, DestPort } from '../components'
 
 // console.log(Echarts);
 
@@ -10,6 +10,8 @@ export default {
   ListData,
   FormData,
   DialogInfo,
+  OriginPort,
+  DestPort,
 
   EchartsBarDefault: Echarts.Bar.Default,
   EchartsBarHorizontal: Echarts.Bar.Horizontal,

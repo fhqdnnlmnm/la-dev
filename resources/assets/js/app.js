@@ -15,6 +15,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './register'
 import store from './store/'
+Vue.config.devtools = true
 
 
 /**

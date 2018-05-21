@@ -18,4 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-//auth新增的路由结束
+
+Route::get('/pricecheck','PriceCheck\PriceController@index');

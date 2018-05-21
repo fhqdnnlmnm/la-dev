@@ -3,7 +3,7 @@
  */
 import Content from './Content.vue'
 import Home from './Home.vue'
-
+import PriceCheck from './PriceCheck.vue'
 export {
-  Home, Content
+  Home, Content,PriceCheck
 }
