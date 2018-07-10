@@ -1,9 +1,10 @@
 /**
  * Created by sailengsi on 2017/5/11.
  */
-import Content from './Content.vue'
-import Home from './Home.vue'
-import PriceCheck from './PriceCheck.vue'
+
+import Front from './front'
+import Admin from './admin'
+
 export {
-  Home, Content,PriceCheck
+  Front,Admin
 }

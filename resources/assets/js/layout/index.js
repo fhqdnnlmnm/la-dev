@@ -3,12 +3,11 @@ import HeadNav from './head-nav/HeadNav.vue'
 import LeftMenu from './left-menu/LeftMenu.vue'
 
 
-import { Home, Content,PriceCheck } from './routeview/'
+import { Front, Admin } from './routeview/'
 
 export {
-  Home,
-  Content,
-  PriceCheck,
+  Front,
+  Admin,
   Bread,
   HeadNav,
   LeftMenu

@@ -10,6 +10,11 @@ import leftmenu from './leftmenu/'
 import router from './router/'
 import tabs from './tabs/'
 
+//自定义模块
+import app from './models/app'
+
+import getters from './getters'
+
 export default new Vuex.Store({
   modules: {
     cart,
@@ -17,6 +22,8 @@ export default new Vuex.Store({
     global,
     router,
     leftmenu,
-    tabs
-  }
+    tabs,
+    //自定义模块
+    app
+  },getters
 })
